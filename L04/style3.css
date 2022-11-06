@@ -1,0 +1,184 @@
+body{
+    background-image: url("./Picture/281381223_1701373546910987_5453465908554975017_n.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(28, 27, 30);
+    margin-top: 80px;
+ }
+ header img{
+      margin-left: 70px;
+      padding-right: 450px;
+      
+ }
+ header{
+     background-color: transparent;
+     position: fixed;
+     width: 800px;
+     top: 0;
+     left: auto;
+     right: auto;
+     height: 100px;
+     display:flex;
+     align-items: center;
+ }
+ header *{
+     display:inline;
+ }
+ header li{
+     margin:10px;
+     justify-content: flex-end;
+     padding-right: 0;
+     margin-right: 0; 
+ }
+ header li a{
+     color:whitesmoke;
+     text-decoration: none; 
+     font-size: 11pt;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ header li a:hover {
+     background-color: transparent;
+     color: red;
+     text-decoration: underline;
+ }
+ header a.active {
+     background-color:transparent;
+     color:red;
+     text-decoration: underline;
+   }
+   #profilepic{
+    padding-top: 500px;
+   }
+ h1{
+     text-align: left;
+     padding-top: 500px;
+     padding-bottom: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color:whitesmoke
+ }
+ #p1{
+     font-family: Arial, Helvetica, sans-serif;
+     color: whitesmoke;
+     font-size: 18pt;
+     text-align: left;
+     padding-top: 30px;
+     padding-bottom: 0px; 
+ }
+ #p2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 18pt;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 0px; 
+}
+ div{
+ text-align: right;
+ margin: 0 auto;
+ padding-top: 0px;
+ padding-bottom:0px;
+ background-color: rgb(28, 27, 30);
+ }
+ .contactform *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+ }
+ .inputfont{
+    color: grey;
+ }
+ label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+	background: #64B5F6;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+ .contactform *:focus {
+	outline: 0;
+}
+h3{
+    text-align: left;
+}
+.contactform {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: transparent;
+	border-radius: 4px;
+}
+ .flex-container{
+     display: flex;
+    background-color: transparent;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
+ .container800px{
+     width: 800px;
+     background-color: transparent;
+ }
+ #footer{
+     margin-top: 150px;
+     width: 100%;
+     padding-left: 0;
+     padding-top: 100px 15%;
+     background: #eaeaea;
+     color: black;
+     display:flex;
+ }
+ .col-1{
+     background: #eaeaea;
+ }
+ .col-1 p{
+     font-size: 12pt;
+     padding-top: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+     
+ }
+ .col-2 a{
+     display: block;
+     margin-top: 10px;
+     margin-bottom: 30px;
+     text-decoration: none;
+     color: black;
+ }
+ .col-2{
+     background: #eaeaea;
+ }
+ .col-3{background: #eaeaea;
+ }
+ .col-3 p{
+     font-size: 12pt;
+     padding-top: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .flex-container2{
+     display: flex;
+     background-color: transparent;
+     flex-direction: row;
+     width: 800px;
+ }
+ 
