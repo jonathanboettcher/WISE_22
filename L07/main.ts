@@ -9,8 +9,6 @@ const ewbelgien2000 = 10250000
 const eweu2022 = 446800000
 const eweu2000 = 428470000
 
-
-
 function generator(ew21:number, ew00:number, land:string) {
     
     const wrrel1 = (( (ew21 / ew00 - 1 )*100))
